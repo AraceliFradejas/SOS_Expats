@@ -5,6 +5,7 @@ import "./globals.css";
 // Importamos componentes
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import ChatBubble from "@/components/ChatBubble";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 
 const geistSans = Geist({
@@ -39,6 +40,7 @@ export default function RootLayout({
             {children}
           </div>
           <Footer />
+          <ChatBubble />
         </LanguageProvider>
       </body>
     </html>

@@ -1,11 +1,41 @@
-import Link from 'next/link';
+"use client";
 
-export const metadata = {
-  title: 'SOS Expats - Blog',
-  description: 'Artículos y recursos útiles para expatriados en España'
-};
+import Link from 'next/link';
+import ImageGallery from '@/components/ImageGallery';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function BlogPage() {
+  const { t } = useLanguage();
+  
+  // Definir imágenes para la galería del blog
+  const blogImages = [
+    {
+      src: "/assets/images/blog/experiencia.png",
+      alt: t('blog.gallery_image1_alt'),
+      width: 600,
+      height: 400,
+    },
+    // Reutilizamos la misma imagen para crear más ejemplos en la galería
+    {
+      src: "/assets/images/blog/experiencia.png",
+      alt: t('blog.gallery_image2_alt'),
+      width: 600,
+      height: 400,
+    },
+    {
+      src: "/assets/images/blog/experiencia.png",
+      alt: t('blog.gallery_image3_alt'),
+      width: 600,
+      height: 400,
+    },
+    {
+      src: "/assets/images/blog/experiencia.png",
+      alt: t('blog.gallery_image4_alt'),
+      width: 600,
+      height: 400,
+    }
+  ];
+  
   return (
     <div className="min-h-screen bg-white dark:bg-gray-900">
       {/* Hero Section */}
@@ -13,11 +43,11 @@ export default function BlogPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl md:text-6xl">
-              <span className="block">Blog de SOS Expats</span>
-              <span className="block text-blue-600 dark:text-blue-500">Información útil para expatriados</span>
+              <span className="block">{t('blog.title')}</span>
+              <span className="block text-blue-600 dark:text-blue-500">{t('blog.subtitle')}</span>
             </h1>
             <p className="mt-3 max-w-md mx-auto text-base text-gray-500 dark:text-gray-400 sm:text-lg md:mt-5 md:text-xl md:max-w-3xl">
-              Artículos, guías y consejos para facilitar tu vida como expatriado en España.
+              {t('blog.description')}
             </p>
           </div>
         </div>
@@ -27,22 +57,22 @@ export default function BlogPage() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <div className="flex flex-wrap justify-center gap-4">
           <button className="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700 transition-colors">
-            Todos
+            {t('blog.category_all')}
           </button>
           <button className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
-            Trámites
+            {t('blog.category_procedures')}
           </button>
           <button className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
-            Vivienda
+            {t('blog.category_housing')}
           </button>
           <button className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
-            Impuestos
+            {t('blog.category_taxes')}
           </button>
           <button className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
-            Cultura
+            {t('blog.category_culture')}
           </button>
           <button className="px-4 py-2 bg-gray-200 dark:bg-gray-700 text-gray-700 dark:text-white rounded-full hover:bg-gray-300 dark:hover:bg-gray-600 transition-colors">
-            Educación
+            {t('blog.category_education')}
           </button>
         </div>
       </div>
@@ -84,7 +114,7 @@ export default function BlogPage() {
 
       {/* Blog Posts Grid */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <h2 className="text-2xl font-bold mb-8 text-gray-900 dark:text-white">Artículos recientes</h2>
+        <h2 className="text-2xl font-bold mb-8 text-gray-900 dark:text-white">{t('blog.recent_articles')}</h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Post 1 */}
@@ -225,9 +255,22 @@ export default function BlogPage() {
             </div>
           </div>
         </div>
+      </div>
+      
+      {/* Blog Image Gallery */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gray-50 dark:bg-gray-800">
+        <h2 className="text-2xl font-bold mb-8 text-gray-900 dark:text-white">{t('blog.gallery_title')}</h2>
+        <p className="text-lg mb-8 text-gray-600 dark:text-gray-300">{t('blog.gallery_description')}</p>
         
-        {/* Pagination */}
-        <div className="flex justify-center mt-12">
+        <ImageGallery 
+          images={blogImages} 
+          title={t('blog.gallery_subtitle')} 
+        />
+      </div>
+
+      {/* Pagination */}
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div className="flex justify-center">
           <nav className="inline-flex rounded-md shadow">
             <a href="#" className="py-2 px-4 text-sm font-medium text-gray-500 bg-white dark:bg-gray-800 dark:text-gray-300 rounded-l-md border border-gray-300 dark:border-gray-600 hover:bg-gray-50 dark:hover:bg-gray-700">
               Anterior
@@ -252,26 +295,26 @@ export default function BlogPage() {
       <div className="bg-blue-100 dark:bg-blue-900 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
-            <h2 className="text-3xl font-bold text-blue-800 dark:text-blue-100 mb-4">Suscríbete a nuestro boletín</h2>
+            <h2 className="text-3xl font-bold text-blue-800 dark:text-blue-100 mb-4">{t('blog.newsletter_title')}</h2>
             <p className="text-lg text-blue-600 dark:text-blue-200 mb-6">
-              Recibe artículos útiles, noticias y consejos para expatriados directamente en tu correo.
+              {t('blog.newsletter_description')}
             </p>
             <div className="max-w-md mx-auto">
               <form className="flex flex-col sm:flex-row gap-2">
                 <input 
                   type="email" 
-                  placeholder="Tu correo electrónico" 
+                  placeholder={t('blog.newsletter_placeholder')} 
                   className="px-4 py-2 w-full sm:w-2/3 rounded-md border-gray-300 dark:border-gray-600 dark:bg-gray-700 dark:text-white focus:ring-blue-500 focus:border-blue-500"
                 />
                 <button 
                   type="submit" 
                   className="w-full sm:w-1/3 bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 px-4 rounded-md transition-colors duration-300"
                 >
-                  Suscribirse
+                  {t('blog.newsletter_button')}
                 </button>
               </form>
               <p className="text-sm text-blue-600 dark:text-blue-300 mt-2">
-                No compartiremos tu información. Puedes darte de baja en cualquier momento.
+                {t('blog.newsletter_privacy')}
               </p>
             </div>
           </div>
