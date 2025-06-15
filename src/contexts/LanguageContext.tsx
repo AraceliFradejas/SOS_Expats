@@ -1335,6 +1335,48 @@ const translations: Translations = {
     es: "Equipo profesional de SOS Expats",
     en: "SOS Expats professional team"
   },
+
+  // Nuevas páginas - Coming Soon
+  joinDirectory: {
+    es: "Únete al Directorio",
+    en: "Join the Directory"
+  },
+  joinDirectoryDesc: {
+    es: "Únete a nuestra red de profesionales cualificados para ayudar a expatriados en España.",
+    en: "Join our network of qualified professionals to help expatriates in Spain."
+  },
+  students: {
+    es: "Estudiantes",
+    en: "Students"
+  },
+  studentsDesc: {
+    es: "Recursos y servicios especializados para estudiantes expatriados en España.",
+    en: "Specialized resources and services for expatriate students in Spain."
+  },
+  expatsProfessionals: {
+    es: "Expatriados Profesionales",
+    en: "Professional Expatriates"
+  },
+  expatsProfessionalsDesc: {
+    es: "Servicios especializados para profesionales expatriados que buscan oportunidades en España.",
+    en: "Specialized services for expatriate professionals seeking opportunities in Spain."
+  },
+  comingSoon: {
+    es: "Próximamente",
+    en: "Coming Soon"
+  },
+  comingSoonDesc: {
+    es: "Esta sección está en desarrollo. Pronto estará disponible con contenido completo.",
+    en: "This section is under development. It will be available soon with complete content."
+  },
+  backToProfessionals: {
+    es: "Volver a Profesionales",
+    en: "Back to Professionals"
+  },
+  backToExpats: {
+    es: "Volver a Expats",
+    en: "Back to Expats"
+  },
 };
 
 // Interfaz para el contexto
