@@ -1,3 +1,5 @@
+"use client";
+
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export default function TerminosCondiciones() {
@@ -19,10 +21,10 @@ export default function TerminosCondiciones() {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">2. Definiciones</h2>
             <p className="mb-4">
-              "Plataforma" se refiere al sitio web SOS Expats, accesible desde sosexpats.com.
-              <br />"Usuario" se refiere a cualquier persona que acceda, navegue o se registre en la plataforma.
-              <br />"Profesional" se refiere a aquellos usuarios que ofrecen servicios a través de nuestra plataforma.
-              <br />"Expatriado" o "Expat" se refiere a aquellos usuarios que buscan servicios en nuestra plataforma.
+              &ldquo;Plataforma&rdquo; se refiere al sitio web SOS Expats, accesible desde sosexpats.com.
+              <br />&ldquo;Usuario&rdquo; se refiere a cualquier persona que acceda, navegue o se registre en la plataforma.
+              <br />&ldquo;Profesional&rdquo; se refiere a aquellos usuarios que ofrecen servicios a través de nuestra plataforma.
+              <br />&ldquo;Expatriado&rdquo; o &ldquo;Expat&rdquo; se refiere a aquellos usuarios que buscan servicios en nuestra plataforma.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">3. Registro y cuentas de usuario</h2>
@@ -74,10 +76,10 @@ export default function TerminosCondiciones() {
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">2. Definitions</h2>
             <p className="mb-4">
-              "Platform" refers to the SOS Expats website, accessible from sosexpats.com.
-              <br />"User" refers to any person who accesses, browses, or registers on the platform.
-              <br />"Professional" refers to those users who offer services through our platform.
-              <br />"Expatriate" or "Expat" refers to those users who seek services on our platform.
+              &ldquo;Platform&rdquo; refers to the SOS Expats website, accessible from sosexpats.com.
+              <br />&ldquo;User&rdquo; refers to any person who accesses, browses, or registers on the platform.
+              <br />&ldquo;Professional&rdquo; refers to those users who offer services through our platform.
+              <br />&ldquo;Expatriate&rdquo; or &ldquo;Expat&rdquo; refers to those users who seek services on our platform.
             </p>
             
             <h2 className="text-2xl font-semibold mt-8 mb-4">3. Registration and user accounts</h2>

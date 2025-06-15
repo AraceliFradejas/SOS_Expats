@@ -21,7 +21,7 @@ export default function InscripcionProfesionales() {
     anosExperiencia: '',
     numeroColegiacion: '',
     colegioProfesional: '',
-    idiomas: [],
+    idiomas: [] as string[],
     
     // Información Comercial
     descripcionServicios: '',
@@ -44,8 +44,10 @@ export default function InscripcionProfesionales() {
     politicaCalidad: false
   });
 
-  const handleInputChange = (e) => {
-    const { name, value, type, checked } = e.target;
+  const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
+    const { name, value, type } = e.target;
+    const checked = (e.target as HTMLInputElement).checked;
+    
     if (type === 'checkbox') {
       if (name === 'idiomas') {
         const updatedIdiomas = checked 
@@ -60,9 +62,9 @@ export default function InscripcionProfesionales() {
     }
   };
 
-  const handleFileChange = (e) => {
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { name, files } = e.target;
-    setFormData(prev => ({ ...prev, [name]: files[0] }));
+    setFormData(prev => ({ ...prev, [name]: files?.[0] }));
   };
 
   const nextStep = () => {
@@ -73,14 +75,14 @@ export default function InscripcionProfesionales() {
     if (currentStep > 1) setCurrentStep(currentStep - 1);
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     console.log('Formulario enviado:', formData);
     // Aquí iría la lógica de envío
     setShowSuccess(true);
   };
 
-  const isStepValid = (step) => {
+  const isStepValid = (step: number) => {
     switch (step) {
       case 1:
         return formData.nombreCompleto && formData.emailProfesional && formData.telefono && formData.dniNie;

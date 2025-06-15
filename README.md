@@ -1,109 +1,211 @@
 # SOS Expats - Plataforma para conectar expatriados con profesionales locales
 
-## Descripción del Proyecto
+<div align="center">
+  <img src="./public/assets/logos/logo_sos_expats.png" alt="SOS Expats Logo" width="300"/>
+</div>
 
-SOS Expats es una plataforma web diseñada para facilitar la adaptación de expatriados en España, conectándolos con profesionales locales que pueden brindarles los servicios que necesitan. El proyecto tiene dos enfoques principales:
+<div align="center">
 
-1. **Para Profesionales**: Ofrece un directorio donde los profesionales locales pueden registrarse y ofrecer sus servicios a la comunidad de expatriados.
+[![Next.js](https://img.shields.io/badge/Next.js-15.3.3-black?style=for-the-badge&logo=next.js)](https://nextjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5-blue?style=for-the-badge&logo=typescript)](https://www.typescriptlang.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38B2AC?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com/)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel)](https://vercel.com/)
 
-2. **Para Expatriados**: Proporciona un punto central donde pueden encontrar servicios adaptados a sus necesidades específicas, así como información útil para su adaptación en España.
+[🌐 Demo en Vivo](https://sos-expats.vercel.app) · [📄 Documentación](#documentación) · [🚀 Instalación](#instalación)
 
-## Estructura del Sitio
+**Español** | [English](./README_EN.md)
 
-El sitio está organizado en tres niveles:
+</div>
 
-### NIVEL 1: HOME
-- **Página de Inicio**: Con propuesta de valor clara y CTA dividido para profesionales y expats.
+---
 
-### NIVEL 2: TARGETS, RAMAS PRINCIPALES
-- **RAMA A: SOY UN PROFESIONAL**: Únete al Directorio, Planes y Precios, Beneficios para Profesionales
-- **RAMA B: SOY UN EXPAT**: Buscar Servicios, Información para Estudiantes, Información para Profesionales
+## 📖 Descripción
 
-### NIVEL 3: PÁGINAS DE DETALLE
-- **Para Profesionales**: Registro al Directorio, Planes, Beneficios
-- **Para Expats**: Servicios disponibles, Guías específicas
-- **Páginas Transversales**: Blog, Contacto, Sobre Nosotros, Términos y Condiciones, Política de Privacidad
+**SOS Expats** es una plataforma web innovadora diseñada para facilitar la adaptación de expatriados en España, conectándolos con profesionales locales especializados en brindar servicios adaptados a sus necesidades específicas.
 
-## Tecnologías Utilizadas
+### 🎯 Objetivos Principales
 
-- **Next.js**: Framework de React para el frontend
-- **TypeScript**: Para tipado estático y mejor desarrollo
-- **Tailwind CSS**: Para el diseño de la interfaz de usuario
-- **React**: Biblioteca principal para construir la interfaz de usuario
+- **Para Profesionales**: Directorio especializado donde pueden registrarse y ofrecer servicios a la comunidad internacional
+- **Para Expatriados**: Portal centralizado para encontrar servicios especializados e información útil para su adaptación
 
-## Instrucciones de Desarrollo
+### 🌟 Características Destacadas
 
-Para ejecutar el proyecto en modo desarrollo:
+- 🌍 **Sistema bilingüe** (Español/Inglés)
+- 📱 **Diseño responsive** optimizado para todos los dispositivos
+- 🔍 **Búsqueda inteligente** de servicios por categorías
+- 📋 **Formularios interactivos** con validación en tiempo real
+- 👥 **Gestión de perfiles** para profesionales y expatriados
+- 🎨 **Interfaz moderna** con DaisyUI y Tailwind CSS
+
+## 🏗️ Arquitectura del Proyecto
+
+```
+SOS_Expats/
+├── 🏠 HOME (Página Principal)
+├── 👨‍💼 PROFESIONALES
+│   ├── Únete al Directorio
+│   ├── Planes y Precios
+│   └── Beneficios
+├── 🌍 EXPATRIADOS
+│   ├── Buscar Servicios
+│   ├── Información para Estudiantes
+│   └── Información para Profesionales
+└── 📄 PÁGINAS TRANSVERSALES
+    ├── Blog
+    ├── Contacto
+    ├── Sobre Nosotros
+    ├── FAQ
+    └── Políticas Legales
+```
+
+## 🛠️ Tecnologías Utilizadas
+
+<div align="center">
+
+| Frontend | Styling | Backend | Deploy |
+|----------|---------|---------|--------|
+| Next.js 15 | Tailwind CSS | Node.js | Vercel |
+| React 19 | DaisyUI | TypeScript | Git |
+| TypeScript | Framer Motion | - | GitHub |
+
+</div>
+
+### 🔧 Dependencias Principales
+
+```json
+{
+  "next": "15.3.3",
+  "react": "^19.0.0",
+  "typescript": "^5",
+  "tailwindcss": "^4",
+  "daisyui": "^5.0.43",
+  "framer-motion": "^12.18.1"
+}
+```
+
+## 🚀 Instalación
+
+### Prerrequisitos
+
+- Node.js 18.0 o superior
+- npm o yarn
+- Git
+
+### Pasos de Instalación
+
+1. **Clonar el repositorio**
 
 ```bash
-npm install   # Instalar dependencias
-npm run dev   # Iniciar servidor de desarrollo
+git clone https://github.com/tu-usuario/sos-expats.git
+cd sos-expats
 ```
 
-Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
+2. **Instalar dependencias**
 
-## Estructura del Código
-
-- `/src/app`: Contiene las rutas y páginas de la aplicación
-- `/src/app/page.tsx`: Página principal (Home)
-- `/src/app/profesionales`: Sección para profesionales
-- `/src/app/expats`: Sección para expatriados
-- `/src/components`: Componentes reutilizables (Navbar, Footer, etc.)
-
-## Estructura de Assets
-
-El proyecto cuenta con una estructura organizada para los activos estáticos:
-
-- `/public/assets/images`: Imágenes del sitio organizadas por secciones
-  - `/hero`: Imágenes principales para la página de inicio
-  - `/profesionales`: Imágenes específicas para la sección de profesionales
-  - `/expats`: Imágenes específicas para la sección de expatriados
-  - `/testimonios`: Fotos de personas que dan testimonios
-  - `/blog`: Imágenes para artículos del blog
-  - `/servicios`: Imágenes relacionadas con los servicios ofrecidos
-  - `/equipo`: Fotos del equipo para la sección "Sobre Nosotros"
-
-- `/public/assets/logos`: Logotipos de la empresa y partners
-- `/public/assets/icons`: Iconografía del sitio
-  - `/social`: Iconos de redes sociales
-  - `/servicios`: Iconos para las categorías de servicios
-  - `/ui`: Iconos para la interfaz de usuario
-
-## Cómo Usar los Assets
-
-Para utilizar las imágenes en los componentes de React, utiliza la siguiente sintaxis:
-
-```jsx
-import Image from 'next/image';
-
-// En tu componente
-<Image 
-  src="/assets/images/hero/main-image.jpg" 
-  alt="Descripción de la imagen" 
-  width={800} 
-  height={600} 
-/>
+```bash
+npm install
+# o
+yarn install
 ```
 
-## Aspectos Técnicos
+3. **Ejecutar en modo desarrollo**
 
-- Este proyecto usa [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) para optimizar automáticamente y cargar [Geist](https://vercel.com/font), una nueva familia de fuentes de Vercel.
-- Se utiliza Tailwind CSS para un diseño responsivo y optimizado para todos los dispositivos.
+```bash
+npm run dev
+# o
+yarn dev
+```
 
-## Autor
+4. **Abrir en el navegador**
 
-Este proyecto fue desarrollado como ejercicio final del Máster en Desarrollo Web.
+```
+http://localhost:3000
+```
 
-To learn more about Next.js, take a look at the following resources:
+## 📜 Scripts Disponibles
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Comando | Descripción |
+|---------|-------------|
+| `npm run dev` | 🔥 Servidor de desarrollo |
+| `npm run build` | 🏗️ Build de producción |
+| `npm run start` | ⚡ Servidor de producción |
+| `npm run lint` | 🔍 Análisis de código |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Despliegue
 
-## Deploy on Vercel
+### Vercel (Recomendado)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Conectar repositorio**
+   - Ir a [vercel.com](https://vercel.com)
+   - Importar proyecto desde GitHub
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+2. **Configuración automática**
+   - Detección automática de Next.js
+   - Build automático con `npm run build`
+   - Deploy instantáneo
+
+### Otras Plataformas
+
+- ✅ Netlify
+- ✅ AWS Amplify  
+- ✅ Railway
+- ✅ Render
+
+## 📱 Capturas de Pantalla
+
+<div align="center">
+  <img src="./docs/screenshot-home.png" alt="Página Principal" width="45%"/>
+  <img src="./docs/screenshot-services.png" alt="Servicios" width="45%"/>
+</div>
+
+## 🎓 Información Académica
+
+Este proyecto ha sido desarrollado como **Trabajo Final** de la asignatura de **Marketing Analytics** del:
+
+**Máster en Marketing Digital y Analytics + Máster en IA Empresarial**  
+🏫 **Escuela ENEB**  
+📅 **Junio 2025**
+
+### 📚 Competencias Desarrolladas
+
+- ✅ Desarrollo web con tecnologías modernas
+- ✅ Diseño UX/UI centrado en el usuario
+- ✅ Implementación de analytics y métricas
+- ✅ Estrategias de marketing digital
+- ✅ Aplicación de IA en el desarrollo web
+
+## 🤝 Contribución
+
+Las contribuciones son bienvenidas. Para contribuir:
+
+1. Fork el proyecto
+2. Crear una rama feature (`git checkout -b feature/AmazingFeature`)
+3. Commit los cambios (`git commit -m 'Add AmazingFeature'`)
+4. Push a la rama (`git push origin feature/AmazingFeature`)
+5. Abrir un Pull Request
+
+## 📄 Licencia
+
+Este proyecto está bajo la Licencia MIT. Ver `LICENSE` para más detalles.
+
+## 👨‍💻 Autor
+
+**Araceli Fradejas Muñoz**
+- 📧 Email: araceli.fradejas@gmail.com
+- 💼 LinkedIn: [araceli-fradejas-munoz-transformaciondigital](https://www.linkedin.com/in/araceli-fradejas-munoz-transformaciondigital/)
+- 🐙 GitHub: [AraceliFradejas](https://github.com/AraceliFradejas)
+
+---
+
+<div align="center">
+  <p>⭐ ¡Dale una estrella si te gustó el proyecto! ⭐</p>
+  <p>Desarrollado con ❤️ para la comunidad de expatriados</p>
+</div>
+
+---
+
+<div align="center">
+  <a href="README.md">🇪🇸 Español</a> • 
+  <a href="README-EN.md">🇺🇸 English</a>
+</div>
 
