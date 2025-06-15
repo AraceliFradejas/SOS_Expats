@@ -127,6 +127,50 @@ const translations: Translations = {
     es: "Planes y Precios",
     en: "Plans and Pricing"
   },
+  footer_benefits: {
+    es: "Beneficios",
+    en: "Benefits"
+  },
+  footer_expats: {
+    es: "Para Expats",
+    en: "For Expats"
+  },
+  footer_find_services: {
+    es: "Buscar Servicios",
+    en: "Find Services"
+  },
+  footer_students: {
+    es: "Estudiantes",
+    en: "Students"
+  },
+  footer_professionals_expat: {
+    es: "Profesionales Expat",
+    en: "Expat Professionals"
+  },
+  footer_legal: {
+    es: "Legal",
+    en: "Legal"
+  },
+  footer_terms: {
+    es: "Términos y Condiciones",
+    en: "Terms and Conditions"
+  },
+  footer_privacy: {
+    es: "Política de Privacidad",
+    en: "Privacy Policy"
+  },
+  footer_important_notice_title: {
+    es: "NOTA MUY IMPORTANTE",
+    en: "IMPORTANT NOTE"
+  },
+  footer_important_notice_text: {
+    es: "Esta página es un ejercicio realizado por Araceli Fradejas Muñoz como parte de la entrega del Trabajo Final de la Asignatura de Marketing Analytics del Máster en Marketing Digital y Analytics + Máster en IA Empresarial de la escuela ENEB.",
+    en: "This page is an exercise created by Araceli Fradejas Muñoz as part of the final project for the Marketing Analytics subject of the Master in Digital Marketing and Analytics + Master in Business AI at ENEB School."
+  },
+  footer_copyright: {
+    es: "© {year} Araceli Fradejas Muñoz. Todos los derechos reservados.",
+    en: "© {year} Araceli Fradejas Muñoz. All rights reserved."
+  },
   
   // Chat
   chat: {
