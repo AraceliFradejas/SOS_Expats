@@ -94,6 +94,29 @@ const Navbar = () => {
                 {t('nav_contact')}
               </Link>
             </li>
+            <li>
+              <Link href="/galeria" className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">
+                {t('nav_gallery')}
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="/profesionales/inscripcion" 
+                className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500 hover:bg-blue-800 md:hover:bg-transparent md:hover:text-blue-800"
+                prefetch={true}
+              >
+                {t('nav_register_professional')}
+              </Link>
+            </li>
+            <li>
+              <Link 
+                href="/solicitar-servicio" 
+                className="block py-2 pl-3 pr-4 text-white bg-green-700 rounded md:bg-transparent md:text-green-700 md:p-0 md:dark:text-green-500 hover:bg-green-800 md:hover:bg-transparent md:hover:text-green-800"
+                prefetch={true}
+              >
+                {t('nav_request_service')}
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

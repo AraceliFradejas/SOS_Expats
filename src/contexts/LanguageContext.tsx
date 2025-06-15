@@ -35,6 +35,18 @@ const translations: Translations = {
     es: "Contacto",
     en: "Contact"
   },
+  nav_gallery: {
+    es: "Galería",
+    en: "Gallery"
+  },
+  nav_register_professional: {
+    es: "Únete como Profesional",
+    en: "Join as Professional"
+  },
+  nav_request_service: {
+    es: "Solicitar Servicio",
+    en: "Request Service"
+  },
   
   // Home
   home_title: {
@@ -52,6 +64,22 @@ const translations: Translations = {
   home_cta_expat: {
     es: "SOY UN EXPAT",
     en: "I AM AN EXPAT"
+  },
+  home_cta_forms_title: {
+    es: "¿Listo para comenzar?",
+    en: "Ready to get started?"
+  },
+  home_cta_forms_subtitle: {
+    es: "Únete a nuestra plataforma o solicita el servicio que necesitas hoy mismo",
+    en: "Join our platform or request the service you need today"
+  },
+  home_cta_register_professional: {
+    es: "Registrarme como Profesional",
+    en: "Register as Professional"
+  },
+  home_cta_request_service: {
+    es: "Solicitar un Servicio",
+    en: "Request a Service"
   },
   home_feature_1_title: {
     es: "Amplia Red de Profesionales",
@@ -673,6 +701,994 @@ const translations: Translations = {
   'team.join_button': {
     es: "Ver Oportunidades",
     en: "See Opportunities"
+  },
+  
+  // Página de Recursos
+  'resources.title': {
+    es: "Recursos para Expatriados",
+    en: "Expatriate Resources"
+  },
+  'resources.description': {
+    es: "Aquí encontrarás guías, documentos y herramientas útiles para facilitar tu adaptación y vida diaria en España.",
+    en: "Here you'll find guides, documents and useful tools to facilitate your adaptation and daily life in Spain."
+  },
+  'resources.all_categories': {
+    es: "Todas las categorías",
+    en: "All categories"
+  },
+  'resources.read_more': {
+    es: "Leer más",
+    en: "Read more"
+  },
+  'resources.legal_category': {
+    es: "Recursos Legales",
+    en: "Legal Resources"
+  },
+  'resources.housing_category': {
+    es: "Vivienda",
+    en: "Housing"
+  },
+  'resources.education_category': {
+    es: "Educación",
+    en: "Education"
+  },
+  'resources.culture_category': {
+    es: "Cultura y Adaptación",
+    en: "Culture & Adaptation"
+  },
+  'resources.legal_resource1_title': {
+    es: "Guía completa sobre el NIE",
+    en: "Complete guide to NIE"
+  },
+  'resources.legal_resource1_description': {
+    es: "Todo lo que necesitas saber sobre el Número de Identidad de Extranjero: requisitos, procesos y consejos.",
+    en: "Everything you need to know about the Foreigner Identification Number: requirements, processes and tips."
+  },
+  'resources.legal_resource2_title': {
+    es: "Trámites de residencia",
+    en: "Residence procedures"
+  },
+  'resources.legal_resource2_description': {
+    es: "Información detallada sobre los diferentes tipos de permisos de residencia y cómo solicitarlos.",
+    en: "Detailed information about the different types of residence permits and how to apply for them."
+  },
+  'resources.legal_resource3_title': {
+    es: "Fiscalidad para expatriados",
+    en: "Taxation for expatriates"
+  },
+  'resources.legal_resource3_description': {
+    es: "Guía sobre impuestos, obligaciones fiscales y convenios de doble imposición para extranjeros en España.",
+    en: "Guide on taxes, tax obligations and double taxation agreements for foreigners in Spain."
+  },
+  'resources.housing_resource1_title': {
+    es: "Cómo alquilar una vivienda en España",
+    en: "How to rent a home in Spain"
+  },
+  'resources.housing_resource1_description': {
+    es: "Guía paso a paso para encontrar y alquilar una vivienda, incluyendo aspectos legales y consejos prácticos.",
+    en: "Step-by-step guide to finding and renting a home, including legal aspects and practical advice."
+  },
+  'resources.housing_resource2_title': {
+    es: "Compra de propiedad para extranjeros",
+    en: "Property purchase for foreigners"
+  },
+  'resources.housing_resource2_description': {
+    es: "Todo lo que debes saber si estás considerando comprar una propiedad en España siendo extranjero.",
+    en: "Everything you should know if you're considering buying a property in Spain as a foreigner."
+  },
+  'resources.housing_resource3_title': {
+    es: "Glosario de términos inmobiliarios",
+    en: "Real estate glossary"
+  },
+  'resources.housing_resource3_description': {
+    es: "Diccionario español-inglés de los términos más comunes que encontrarás en el mercado inmobiliario español.",
+    en: "Spanish-English dictionary of the most common terms you'll find in the Spanish real estate market."
+  },
+  'resources.education_resource1_title': {
+    es: "Sistema educativo español",
+    en: "Spanish educational system"
+  },
+  'resources.education_resource1_description': {
+    es: "Explicación detallada sobre cómo funciona la educación en España, desde infantil hasta la universidad.",
+    en: "Detailed explanation of how education works in Spain, from kindergarten to university."
+  },
+  'resources.education_resource2_title': {
+    es: "Escuelas internacionales y bilingües",
+    en: "International and bilingual schools"
+  },
+  'resources.education_resource2_description': {
+    es: "Directorio de centros educativos internacionales y bilingües en las principales ciudades españolas.",
+    en: "Directory of international and bilingual educational centers in the main Spanish cities."
+  },
+  'resources.education_resource3_title': {
+    es: "Cursos de español para extranjeros",
+    en: "Spanish courses for foreigners"
+  },
+  'resources.education_resource3_description': {
+    es: "Opciones para aprender español, desde academias y universidades hasta intercambios lingüísticos.",
+    en: "Options for learning Spanish, from academies and universities to language exchanges."
+  },
+  'resources.culture_resource1_title': {
+    es: "Choque cultural en España",
+    en: "Culture shock in Spain"
+  },
+  'resources.culture_resource1_description': {
+    es: "Consejos para gestionar el choque cultural y adaptarte más fácilmente a la vida en España.",
+    en: "Tips for managing culture shock and adapting more easily to life in Spain."
+  },
+  'resources.culture_resource2_title': {
+    es: "Costumbres españolas explicadas",
+    en: "Spanish customs explained"
+  },
+  'resources.culture_resource2_description': {
+    es: "Guía sobre horarios, comidas, celebraciones y otras particularidades de la cultura española.",
+    en: "Guide on schedules, meals, celebrations and other peculiarities of Spanish culture."
+  },
+  'resources.culture_resource3_title': {
+    es: "Comunidades de expatriados",
+    en: "Expatriate communities"
+  },
+  'resources.culture_resource3_description': {
+    es: "Información sobre grupos, asociaciones y eventos donde conocer a otros expatriados en España.",
+    en: "Information about groups, associations and events where you can meet other expatriates in Spain."
+  },
+  'resources.downloads_title': {
+    es: "Guías descargables",
+    en: "Downloadable guides"
+  },
+  'resources.download1_title': {
+    es: "Checklist de mudanza",
+    en: "Moving checklist"
+  },
+  'resources.download1_description': {
+    es: "Lista completa de tareas para preparar tu mudanza a España de forma organizada.",
+    en: "Complete task list to prepare your move to Spain in an organized way."
+  },
+  'resources.download2_title': {
+    es: "Guía de barrios",
+    en: "Neighborhood guide"
+  },
+  'resources.download2_description': {
+    es: "Información detallada sobre los mejores barrios para expatriados en las principales ciudades.",
+    en: "Detailed information about the best neighborhoods for expatriates in major cities."
+  },
+  'resources.download3_title': {
+    es: "Plantillas de CV españolas",
+    en: "Spanish CV templates"
+  },
+  'resources.download3_description': {
+    es: "Modelos de currículum adaptados al mercado laboral español y consejos para buscar empleo.",
+    en: "Resume templates adapted to the Spanish job market and tips for job searching."
+  },
+  'resources.download4_title': {
+    es: "Documentos esenciales",
+    en: "Essential documents"
+  },
+  'resources.download4_description': {
+    es: "Listado de documentos importantes que debes tener preparados al mudarte a España.",
+    en: "List of important documents you should have ready when moving to Spain."
+  },
+  'resources.download_button': {
+    es: "Descargar PDF",
+    en: "Download PDF"
+  },
+  'resources.faq_title': {
+    es: "Preguntas frecuentes",
+    en: "Frequently asked questions"
+  },
+  'resources.faq1_question': {
+    es: "¿Qué documentos necesito para trabajar legalmente en España?",
+    en: "What documents do I need to work legally in Spain?"
+  },
+  'resources.faq1_answer': {
+    es: "Para trabajar legalmente en España como extranjero, necesitarás un NIE, un permiso de residencia y trabajo, y estar dado de alta en la Seguridad Social. Los requisitos específicos varían según tu nacionalidad y situación personal.",
+    en: "To work legally in Spain as a foreigner, you'll need a NIE, a residence and work permit, and to be registered with Social Security. The specific requirements vary according to your nationality and personal situation."
+  },
+  'resources.faq2_question': {
+    es: "¿Cómo funciona el sistema sanitario para expatriados?",
+    en: "How does the healthcare system work for expatriates?"
+  },
+  'resources.faq2_answer': {
+    es: "Los expatriados con residencia legal tienen acceso al sistema sanitario público español, que es considerado uno de los mejores del mundo. Si trabajas en España, contribuirás a la Seguridad Social, lo que incluye la cobertura sanitaria.",
+    en: "Expatriates with legal residence have access to the Spanish public healthcare system, which is considered one of the best in the world. If you work in Spain, you'll contribute to Social Security, which includes healthcare coverage."
+  },
+  'resources.faq3_question': {
+    es: "¿Cuánto tiempo puedo permanecer en España como turista?",
+    en: "How long can I stay in Spain as a tourist?"
+  },
+  'resources.faq3_answer': {
+    es: "Los ciudadanos de la UE pueden residir en España hasta 3 meses sin registro formal. Los no comunitarios generalmente pueden permanecer 90 días en un período de 180 días con visa Schengen o exención de visado, dependiendo de su nacionalidad.",
+    en: "EU citizens can reside in Spain for up to 3 months without formal registration. Non-EU citizens can generally stay for 90 days in a 180-day period with a Schengen visa or visa exemption, depending on their nationality."
+  },
+  'resources.faq4_question': {
+    es: "¿Es difícil abrir una cuenta bancaria siendo extranjero?",
+    en: "Is it difficult to open a bank account as a foreigner?"
+  },
+  'resources.faq4_answer': {
+    es: "No es especialmente difícil, pero necesitarás tu pasaporte o documento de identidad, NIE y prueba de residencia. Algunos bancos ofrecen cuentas específicas para no residentes. Recomendamos investigar diferentes entidades para encontrar las mejores condiciones.",
+    en: "It's not especially difficult, but you'll need your passport or ID, NIE and proof of residence. Some banks offer specific accounts for non-residents. We recommend researching different institutions to find the best conditions."
+  },
+  'resources.cta_title': {
+    es: "¿Necesitas ayuda personalizada?",
+    en: "Need personalized help?"
+  },
+  'resources.cta_description': {
+    es: "Nuestro equipo de asesores está disponible para resolver tus dudas específicas y ayudarte en tu proceso de adaptación.",
+    en: "Our team of advisors is available to resolve your specific doubts and help you in your adaptation process."
+  },
+  'resources.cta_button': {
+    es: "Contáctanos",
+    en: "Contact Us"
+  },
+  
+  // Formulario de Inscripción de Profesionales
+  'form.professional.title': {
+    es: "Inscripción de Profesionales",
+    en: "Professional Registration"
+  },
+  'form.professional.image_placeholder': {
+    es: "Imagen representativa de profesionales",
+    en: "Representative image of professionals"
+  },
+  'form.professional.step1_title': {
+    es: "Información Básica",
+    en: "Basic Information"
+  },
+  'form.professional.step2_title': {
+    es: "Información Profesional",
+    en: "Professional Information"
+  },
+  'form.professional.step3_title': {
+    es: "Información Comercial",
+    en: "Commercial Information"
+  },
+  'form.professional.step4_title': {
+    es: "Documentación",
+    en: "Documentation"
+  },
+  'form.professional.step5_title': {
+    es: "Plan de Suscripción",
+    en: "Subscription Plan"
+  },
+  'form.professional.full_name': {
+    es: "Nombre completo",
+    en: "Full name"
+  },
+  'form.professional.professional_email': {
+    es: "Email profesional",
+    en: "Professional email"
+  },
+  'form.professional.phone': {
+    es: "Teléfono de contacto",
+    en: "Contact phone"
+  },
+  'form.professional.dni_nie': {
+    es: "DNI/NIE",
+    en: "DNI/NIE"
+  },
+  'form.professional.specialization_area': {
+    es: "Área de especialización",
+    en: "Specialization area"
+  },
+  'form.professional.select_area': {
+    es: "Selecciona un área",
+    en: "Select an area"
+  },
+  'form.professional.legal_advisory': {
+    es: "Asesoría Legal",
+    en: "Legal Advisory"
+  },
+  'form.professional.real_estate': {
+    es: "Inmobiliaria",
+    en: "Real Estate"
+  },
+  'form.professional.administrative': {
+    es: "Gestiones Administrativas",
+    en: "Administrative Services"
+  },
+  'form.professional.tax_accounting': {
+    es: "Fiscal y Contable",
+    en: "Tax & Accounting"
+  },
+  'form.professional.education': {
+    es: "Educación",
+    en: "Education"
+  },
+  'form.professional.health': {
+    es: "Salud",
+    en: "Health"
+  },
+  'form.professional.translation': {
+    es: "Traducción",
+    en: "Translation"
+  },
+  'form.professional.others': {
+    es: "Otros",
+    en: "Others"
+  },
+  'form.professional.years_experience': {
+    es: "Años de experiencia",
+    en: "Years of experience"
+  },
+  'form.professional.select_experience': {
+    es: "Selecciona experiencia",
+    en: "Select experience"
+  },
+  'form.professional.years': {
+    es: "años",
+    en: "years"
+  },
+  'form.professional.more_than_15': {
+    es: "Más de 15 años",
+    en: "More than 15 years"
+  },
+  'form.professional.professional_number': {
+    es: "Número de colegiación",
+    en: "Professional registration number"
+  },
+  'form.professional.number_placeholder': {
+    es: "Ej: 12345",
+    en: "Ex: 12345"
+  },
+  'form.professional.professional_college': {
+    es: "Colegio profesional",
+    en: "Professional college"
+  },
+  'form.professional.college_placeholder': {
+    es: "Ej: Colegio de Abogados de Madrid",
+    en: "Ex: Madrid Bar Association"
+  },
+  'form.professional.languages': {
+    es: "Idiomas que domina",
+    en: "Languages mastered"
+  },
+  'form.professional.lang_spanish': {
+    es: "Español",
+    en: "Spanish"
+  },
+  'form.professional.lang_english': {
+    es: "Inglés",
+    en: "English"
+  },
+  'form.professional.lang_french': {
+    es: "Francés",
+    en: "French"
+  },
+  'form.professional.lang_german': {
+    es: "Alemán",
+    en: "German"
+  },
+  'form.professional.lang_italian': {
+    es: "Italiano",
+    en: "Italian"
+  },
+  'form.professional.lang_portuguese': {
+    es: "Portugués",
+    en: "Portuguese"
+  },
+  'form.professional.lang_chinese': {
+    es: "Chino",
+    en: "Chinese"
+  },
+  'form.professional.lang_arabic': {
+    es: "Árabe",
+    en: "Arabic"
+  },
+  'form.professional.service_description': {
+    es: "Descripción de servicios",
+    en: "Service description"
+  },
+  'form.professional.service_description_placeholder': {
+    es: "Describe detalladamente los servicios que ofreces...",
+    en: "Describe in detail the services you offer..."
+  },
+  'form.professional.characters': {
+    es: "caracteres",
+    en: "characters"
+  },
+  'form.professional.work_modality': {
+    es: "Modalidad de trabajo",
+    en: "Work modality"
+  },
+  'form.professional.select_modality': {
+    es: "Selecciona modalidad",
+    en: "Select modality"
+  },
+  'form.professional.in_person': {
+    es: "Presencial",
+    en: "In person"
+  },
+  'form.professional.online': {
+    es: "Online",
+    en: "Online"
+  },
+  'form.professional.both': {
+    es: "Ambos",
+    en: "Both"
+  },
+  'form.professional.hourly_rate': {
+    es: "Tarifa orientativa por hora",
+    en: "Indicative hourly rate"
+  },
+  'form.professional.select_rate': {
+    es: "Selecciona tarifa",
+    en: "Select rate"
+  },
+  'form.professional.by_project': {
+    es: "Por proyecto",
+    en: "By project"
+  },
+  'form.professional.coverage_area': {
+    es: "Zona de cobertura geográfica",
+    en: "Geographic coverage area"
+  },
+  'form.professional.coverage_placeholder': {
+    es: "Ej: Madrid, Barcelona, Valencia...",
+    en: "Ex: Madrid, Barcelona, Valencia..."
+  },
+  'form.professional.professional_certifications': {
+    es: "Certificaciones profesionales",
+    en: "Professional certifications"
+  },
+  'form.professional.file_formats': {
+    es: "Formatos aceptados: PDF, JPG, PNG",
+    en: "Accepted formats: PDF, JPG, PNG"
+  },
+  'form.professional.liability_insurance': {
+    es: "Seguro de responsabilidad civil",
+    en: "Liability insurance"
+  },
+  'form.professional.pdf_only': {
+    es: "Solo archivos PDF",
+    en: "PDF files only"
+  },
+  'form.professional.professional_photo': {
+    es: "Foto profesional",
+    en: "Professional photo"
+  },
+  'form.professional.image_formats': {
+    es: "Formatos: JPG, PNG",
+    en: "Formats: JPG, PNG"
+  },
+  'form.professional.basic_plan': {
+    es: "Plan Básico",
+    en: "Basic Plan"
+  },
+  'form.professional.premium_plan': {
+    es: "Plan Premium",
+    en: "Premium Plan"
+  },
+  'form.professional.month': {
+    es: "mes",
+    en: "month"
+  },
+  'form.professional.basic_feature1': {
+    es: "Perfil en directorio",
+    en: "Directory profile"
+  },
+  'form.professional.basic_feature2': {
+    es: "Contacto directo de clientes",
+    en: "Direct client contact"
+  },
+  'form.professional.basic_feature3': {
+    es: "Soporte básico",
+    en: "Basic support"
+  },
+  'form.professional.premium_feature1': {
+    es: "Perfil destacado",
+    en: "Featured profile"
+  },
+  'form.professional.premium_feature2': {
+    es: "Mayor visibilidad",
+    en: "Increased visibility"
+  },
+  'form.professional.premium_feature3': {
+    es: "Estadísticas avanzadas",
+    en: "Advanced statistics"
+  },
+  'form.professional.premium_feature4': {
+    es: "Soporte prioritario",
+    en: "Priority support"
+  },
+  'form.professional.payment_method': {
+    es: "Método de pago",
+    en: "Payment method"
+  },
+  'form.professional.select_payment': {
+    es: "Selecciona método",
+    en: "Select method"
+  },
+  'form.professional.credit_card': {
+    es: "Tarjeta de crédito",
+    en: "Credit card"
+  },
+  'form.professional.bank_transfer': {
+    es: "Transferencia bancaria",
+    en: "Bank transfer"
+  },
+  'form.professional.accept_terms': {
+    es: "Acepto los",
+    en: "I accept the"
+  },
+  'form.professional.terms_link': {
+    es: "términos y condiciones",
+    en: "terms and conditions"
+  },
+  'form.professional.accept_privacy': {
+    es: "Acepto la",
+    en: "I accept the"
+  },
+  'form.professional.privacy_link': {
+    es: "política de privacidad",
+    en: "privacy policy"
+  },
+  'form.professional.accept_quality': {
+    es: "Acepto cumplir con la política de calidad del servicio",
+    en: "I agree to comply with the service quality policy"
+  },
+  'form.professional.previous': {
+    es: "Anterior",
+    en: "Previous"
+  },
+  'form.professional.next': {
+    es: "Siguiente",
+    en: "Next"
+  },
+  'form.professional.submit': {
+    es: "Enviar Inscripción",
+    en: "Submit Registration"
+  },
+  'form.professional.success_message': {
+    es: "¡Inscripción enviada correctamente! Te contactaremos pronto.",
+    en: "Registration submitted successfully! We will contact you soon."
+  },
+  'form.professional.success_title': {
+    es: "¡Registro Exitoso!",
+    en: "Successful Registration!"
+  },
+  'form.professional.success_follow_up': {
+    es: "Recibirás un email de confirmación con los próximos pasos en las próximas 24 horas.",
+    en: "You will receive a confirmation email with next steps within 24 hours."
+  },
+  
+  // Formulario de Solicitud de Servicio
+  'form.service.title': {
+    es: "Solicitar Servicio",
+    en: "Request Service"
+  },
+  'form.service.image_placeholder': {
+    es: "Imagen representativa de expats",
+    en: "Representative image of expats"
+  },
+  'form.service.subtitle': {
+    es: "Completa este formulario y te conectaremos con el profesional adecuado para tus necesidades",
+    en: "Complete this form and we'll connect you with the right professional for your needs"
+  },
+  'form.service.personal_info': {
+    es: "Información Personal",
+    en: "Personal Information"
+  },
+  'form.service.full_name': {
+    es: "Nombre completo",
+    en: "Full name"
+  },
+  'form.service.email': {
+    es: "Correo electrónico",
+    en: "Email"
+  },
+  'form.service.phone': {
+    es: "Teléfono",
+    en: "Phone"
+  },
+  'form.service.nationality': {
+    es: "Nacionalidad",
+    en: "Nationality"
+  },
+  'form.service.nationality_placeholder': {
+    es: "Ej: Francesa, Alemana, Británica...",
+    en: "Ex: French, German, British..."
+  },
+  'form.service.service_need': {
+    es: "Información sobre la Necesidad",
+    en: "Service Need Information"
+  },
+  'form.service.service_type': {
+    es: "Tipo de servicio requerido",
+    en: "Required service type"
+  },
+  'form.service.select_service': {
+    es: "Selecciona un servicio",
+    en: "Select a service"
+  },
+  'form.service.legal_advisory': {
+    es: "Asesoría Legal",
+    en: "Legal Advisory"
+  },
+  'form.service.real_estate': {
+    es: "Inmobiliaria",
+    en: "Real Estate"
+  },
+  'form.service.administrative': {
+    es: "Gestiones Administrativas",
+    en: "Administrative Services"
+  },
+  'form.service.tax_accounting': {
+    es: "Fiscal y Contable",
+    en: "Tax & Accounting"
+  },
+  'form.service.education': {
+    es: "Educación",
+    en: "Education"
+  },
+  'form.service.health': {
+    es: "Salud",
+    en: "Health"
+  },
+  'form.service.translation': {
+    es: "Traducción",
+    en: "Translation"
+  },
+  'form.service.others': {
+    es: "Otros",
+    en: "Others"
+  },
+  'form.service.detailed_description': {
+    es: "Descripción detallada del servicio",
+    en: "Detailed service description"
+  },
+  'form.service.description_placeholder': {
+    es: "Explica específicamente qué necesitas y cualquier detalle relevante...",
+    en: "Explain specifically what you need and any relevant details..."
+  },
+  'form.service.characters': {
+    es: "caracteres",
+    en: "characters"
+  },
+  'form.service.urgency': {
+    es: "Urgencia",
+    en: "Urgency"
+  },
+  'form.service.select_urgency': {
+    es: "Selecciona urgencia",
+    en: "Select urgency"
+  },
+  'form.service.immediate': {
+    es: "Inmediata",
+    en: "Immediate"
+  },
+  'form.service.this_week': {
+    es: "Esta semana",
+    en: "This week"
+  },
+  'form.service.this_month': {
+    es: "Este mes",
+    en: "This month"
+  },
+  'form.service.no_rush': {
+    es: "No hay prisa",
+    en: "No rush"
+  },
+  'form.service.budget_range': {
+    es: "Presupuesto orientativo",
+    en: "Indicative budget"
+  },
+  'form.service.select_budget': {
+    es: "Selecciona rango",
+    en: "Select range"
+  },
+  'form.service.to_consult': {
+    es: "A consultar",
+    en: "To consult"
+  },
+  'form.service.context_info': {
+    es: "Información de Contexto",
+    en: "Context Information"
+  },
+  'form.service.current_situation': {
+    es: "Situación actual",
+    en: "Current situation"
+  },
+  'form.service.select_situation': {
+    es: "Selecciona situación",
+    en: "Select situation"
+  },
+  'form.service.student': {
+    es: "Estudiante",
+    en: "Student"
+  },
+  'form.service.professional': {
+    es: "Profesional",
+    en: "Professional"
+  },
+  'form.service.job_seeker': {
+    es: "Buscando trabajo",
+    en: "Job seeker"
+  },
+  'form.service.retired': {
+    es: "Jubilado",
+    en: "Retired"
+  },
+  'form.service.entrepreneur': {
+    es: "Emprendedor",
+    en: "Entrepreneur"
+  },
+  'form.service.other': {
+    es: "Otro",
+    en: "Other"
+  },
+  'form.service.time_in_spain': {
+    es: "Tiempo en España",
+    en: "Time in Spain"
+  },
+  'form.service.select_time': {
+    es: "Selecciona tiempo",
+    en: "Select time"
+  },
+  'form.service.just_arrived': {
+    es: "Recién llegado",
+    en: "Just arrived"
+  },
+  'form.service.less_than_year': {
+    es: "Menos de 1 año",
+    en: "Less than 1 year"
+  },
+  'form.service.one_to_three_years': {
+    es: "1-3 años",
+    en: "1-3 years"
+  },
+  'form.service.more_than_three_years': {
+    es: "Más de 3 años",
+    en: "More than 3 years"
+  },
+  'form.service.service_city': {
+    es: "Ciudad donde necesita el servicio",
+    en: "City where service is needed"
+  },
+  'form.service.city_placeholder': {
+    es: "Ej: Madrid, Barcelona, Valencia...",
+    en: "Ex: Madrid, Barcelona, Valencia..."
+  },
+  'form.service.language_preference': {
+    es: "Preferencia de idioma para la atención",
+    en: "Language preference for service"
+  },
+  'form.service.select_language': {
+    es: "Selecciona idioma",
+    en: "Select language"
+  },
+  'form.service.spanish': {
+    es: "Español",
+    en: "Spanish"
+  },
+  'form.service.english': {
+    es: "Inglés",
+    en: "English"
+  },
+  'form.service.french': {
+    es: "Francés",
+    en: "French"
+  },
+  'form.service.german': {
+    es: "Alemán",
+    en: "German"
+  },
+  'form.service.italian': {
+    es: "Italiano",
+    en: "Italian"
+  },
+  'form.service.portuguese': {
+    es: "Portugués",
+    en: "Portuguese"
+  },
+  'form.service.other_language': {
+    es: "Otro idioma",
+    en: "Other language"
+  },
+  'form.service.contact_preferences': {
+    es: "Preferencias de Contacto",
+    en: "Contact Preferences"
+  },
+  'form.service.preferred_schedule': {
+    es: "Horario preferido para contacto",
+    en: "Preferred contact schedule"
+  },
+  'form.service.select_schedule': {
+    es: "Selecciona horario",
+    en: "Select schedule"
+  },
+  'form.service.morning': {
+    es: "Mañana (9:00-14:00)",
+    en: "Morning (9:00-14:00)"
+  },
+  'form.service.afternoon': {
+    es: "Tarde (14:00-18:00)",
+    en: "Afternoon (14:00-18:00)"
+  },
+  'form.service.evening': {
+    es: "Noche (18:00-21:00)",
+    en: "Evening (18:00-21:00)"
+  },
+  'form.service.weekend': {
+    es: "Fin de semana",
+    en: "Weekend"
+  },
+  'form.service.flexible': {
+    es: "Flexible",
+    en: "Flexible"
+  },
+  'form.service.preferred_contact_method': {
+    es: "Método de contacto preferido",
+    en: "Preferred contact method"
+  },
+  'form.service.select_contact_method': {
+    es: "Selecciona método",
+    en: "Select method"
+  },
+  'form.service.email_contact': {
+    es: "Email",
+    en: "Email"
+  },
+  'form.service.phone_contact': {
+    es: "Teléfono",
+    en: "Phone"
+  },
+  'form.service.whatsapp_contact': {
+    es: "WhatsApp",
+    en: "WhatsApp"
+  },
+  'form.service.in_person_contact': {
+    es: "Presencial",
+    en: "In person"
+  },
+  'form.service.consents': {
+    es: "Consentimientos",
+    en: "Consents"
+  },
+  'form.service.data_authorization': {
+    es: "Autorizo a compartir mis datos con profesionales del directorio para que puedan contactarme",
+    en: "I authorize sharing my data with directory professionals so they can contact me"
+  },
+  'form.service.newsletter_subscription': {
+    es: "Deseo suscribirme al boletín de noticias y consejos para expatriados",
+    en: "I want to subscribe to the newsletter and tips for expatriates"
+  },
+  'form.service.privacy_policy_acceptance': {
+    es: "Acepto la",
+    en: "I accept the"
+  },
+  'form.service.privacy_policy_link': {
+    es: "política de privacidad",
+    en: "privacy policy"
+  },
+  'form.service.submit_request': {
+    es: "Enviar Solicitud",
+    en: "Submit Request"
+  },
+  'form.service.success_message': {
+    es: "¡Solicitud enviada correctamente! Te contactaremos pronto con profesionales adecuados.",
+    en: "Request submitted successfully! We will contact you soon with suitable professionals."
+  },
+  'form.service.success_title': {
+    es: "¡Solicitud Enviada!",
+    en: "Request Submitted!"
+  },
+  'form.service.success_follow_up': {
+    es: "Revisaremos tu solicitud y te enviaremos propuestas de profesionales en menos de 48 horas.",
+    en: "We will review your request and send you professional proposals within 48 hours."
+  },
+  'form.success.continue': {
+    es: "Continuar",
+    en: "Continue"
+  },
+  
+  // Página de Galería
+  'gallery.title': {
+    es: "Galería de Imágenes",
+    en: "Image Gallery"
+  },
+  'gallery.description': {
+    es: "Explora nuestra colección completa de imágenes de todas las secciones de SOS Expats.",
+    en: "Explore our complete collection of images from all sections of SOS Expats."
+  },
+  'gallery.hero_section': {
+    es: "Imágenes de Portada",
+    en: "Hero Images"
+  },
+  'gallery.hero_subtitle': {
+    es: "Imágenes de nuestra página principal",
+    en: "Images from our main page"
+  },
+  'gallery.hero_image1_alt': {
+    es: "Expatriado africano en España",
+    en: "African expatriate in Spain"
+  },
+  'gallery.hero_image2_alt': {
+    es: "Expatriado americano en España",
+    en: "American expatriate in Spain"
+  },
+  'gallery.hero_image3_alt': {
+    es: "Expatriado británico en España",
+    en: "British expatriate in Spain"
+  },
+  'gallery.hero_image4_alt': {
+    es: "Expatriado chino en España",
+    en: "Chinese expatriate in Spain"
+  },
+  'gallery.hero_image5_alt': {
+    es: "Expatriado francés en España",
+    en: "French expatriate in Spain"
+  },
+  'gallery.expats_section': {
+    es: "Sección de Expatriados",
+    en: "Expatriates Section"
+  },
+  'gallery.expats_subtitle': {
+    es: "Imágenes de nuestra sección de expatriados",
+    en: "Images from our expatriates section"
+  },
+  'gallery.expats_image1_alt': {
+    es: "Comunidad de expatriados en España",
+    en: "Expatriate community in Spain"
+  },
+  'gallery.professionals_section': {
+    es: "Sección de Profesionales",
+    en: "Professionals Section"
+  },
+  'gallery.professionals_subtitle': {
+    es: "Imágenes de nuestra sección de profesionales",
+    en: "Images from our professionals section"
+  },
+  'gallery.professionals_image1_alt': {
+    es: "Red de profesionales para expatriados",
+    en: "Network of professionals for expatriates"
+  },
+  'gallery.services_section': {
+    es: "Sección de Servicios",
+    en: "Services Section"
+  },
+  'gallery.services_subtitle': {
+    es: "Imágenes de nuestros servicios",
+    en: "Images of our services"
+  },
+  'gallery.services_image1_alt': {
+    es: "Servicios para expatriados en España",
+    en: "Services for expatriates in Spain"
+  },
+  'gallery.testimonials_section': {
+    es: "Sección de Testimonios",
+    en: "Testimonials Section"
+  },
+  'gallery.testimonials_subtitle': {
+    es: "Imágenes de nuestros testimonios",
+    en: "Images of our testimonials"
+  },
+  'gallery.testimonials_image1_alt': {
+    es: "Testimonios de clientes expatriados",
+    en: "Testimonials from expatriate clients"
+  },
+  'gallery.blog_section': {
+    es: "Sección de Blog",
+    en: "Blog Section"
+  },
+  'gallery.blog_subtitle': {
+    es: "Imágenes de nuestro blog",
+    en: "Images from our blog"
+  },
+  'gallery.blog_image1_alt': {
+    es: "Artículos del blog para expatriados",
+    en: "Blog articles for expatriates"
+  },
+  'gallery.team_section': {
+    es: "Sección de Equipo",
+    en: "Team Section"
+  },
+  'gallery.team_subtitle': {
+    es: "Imágenes de nuestro equipo",
+    en: "Images of our team"
+  },
+  'gallery.team_image1_alt': {
+    es: "Equipo profesional de SOS Expats",
+    en: "SOS Expats professional team"
   },
 };
 

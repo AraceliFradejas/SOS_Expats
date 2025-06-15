@@ -19,15 +19,26 @@ export default function Home() {
             {t('home_subtitle')}
           </p>
           
-          <div className="flex flex-col md:flex-row gap-6 justify-center mt-12">
-            <Link href="/profesionales" 
-                  className="px-8 py-4 text-lg font-semibold rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300 w-full md:w-auto">
-              {t('home_cta_professional')}
-            </Link>
-            <Link href="/expats"
-                  className="px-8 py-4 text-lg font-semibold rounded-lg bg-green-600 text-white hover:bg-green-700 transition-colors duration-300 w-full md:w-auto">
-              {t('home_cta_expat')}
-            </Link>
+          {/* CTA Section for Forms */}
+          <div className="mt-12 p-8 bg-blue-50 dark:bg-gray-800 rounded-xl border border-blue-200 dark:border-gray-700">
+            <h2 className="text-2xl font-bold mb-4 text-blue-800 dark:text-blue-400">{t('home_cta_forms_title')}</h2>
+            <p className="text-gray-600 dark:text-gray-300 mb-6">{t('home_cta_forms_subtitle')}</p>
+            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+              <Link 
+                href="/profesionales/inscripcion" 
+                className="px-6 py-3 text-base font-semibold rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300 flex items-center justify-center"
+                prefetch={true}
+              >
+                📝 {t('home_cta_register_professional')}
+              </Link>
+              <Link 
+                href="/solicitar-servicio"
+                className="px-6 py-3 text-base font-semibold rounded-lg bg-green-600 text-white hover:bg-green-700 transition-colors duration-300 flex items-center justify-center"
+                prefetch={true}
+              >
+                🔍 {t('home_cta_request_service')}
+              </Link>
+            </div>
           </div>
         </div>
         
