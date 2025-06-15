@@ -201,7 +201,6 @@ const translations: Translations = {
     es: "Chat de Soporte",
     en: "Support Chat"
   },
-  // ...existing code...
   
   // Página Expats
   expats_title: {
@@ -322,650 +321,252 @@ const translations: Translations = {
     es: "Verificación de credenciales",
     en: "Credentials verification"
   },
-  
-  // Página de Servicios
-  'services.title': {
-    es: "Nuestros Servicios",
-    en: "Our Services"
+  professionals_dashboard: {
+    es: "Panel de gestión",
+    en: "Management dashboard"
   },
-  'services.description': {
-    es: "Ofrecemos una amplia gama de servicios diseñados para facilitar la vida de los expatriados en España. Desde asesoramiento legal hasta búsqueda de vivienda y acceso a servicios de salud.",
-    en: "We offer a wide range of services designed to make life easier for expatriates in Spain. From legal advice to housing search and access to health services."
+  professionals_register_now: {
+    es: "Regístrate ahora",
+    en: "Register now"
   },
-  'services.legal_title': {
-    es: "Servicios Legales",
-    en: "Legal Services"
+  professionals_plans_pricing: {
+    es: "Planes y Precios",
+    en: "Plans and Pricing"
   },
-  'services.legal_item1': {
-    es: "Trámites de visados y residencia",
-    en: "Visa and residence procedures"
+  professionals_choose_plan: {
+    es: "Elige el plan que mejor se adapte a tu negocio y necesidades profesionales.",
+    en: "Choose the plan that best fits your business and professional needs."
   },
-  'services.legal_item2': {
-    es: "Asesoramiento fiscal para expatriados",
-    en: "Tax advice for expatriates"
+  professionals_basic_plan: {
+    es: "Plan Básico gratuito",
+    en: "Free Basic Plan"
   },
-  'services.legal_item3': {
-    es: "Trámites ante administraciones públicas",
-    en: "Procedures with public administrations"
+  professionals_premium_plan: {
+    es: "Plan Premium con características avanzadas",
+    en: "Premium Plan with advanced features"
   },
-  'services.legal_item4': {
-    es: "Homologación de títulos",
-    en: "Title homologation"
+  professionals_billing: {
+    es: "Facturación mensual o anual",
+    en: "Monthly or annual billing"
   },
-  'services.housing_title': {
-    es: "Servicios de Vivienda",
-    en: "Housing Services"
-  },
-  'services.housing_item1': {
-    es: "Búsqueda de alojamiento",
-    en: "Housing search"
-  },
-  'services.housing_item2': {
-    es: "Revisión de contratos de alquiler",
-    en: "Rental contract review"
-  },
-  'services.housing_item3': {
-    es: "Servicios de mudanza",
-    en: "Moving services"
-  },
-  'services.housing_item4': {
-    es: "Compra de propiedad en España",
-    en: "Property purchase in Spain"
-  },
-  'services.health_title': {
-    es: "Servicios de Salud",
-    en: "Health Services"
-  },
-  'services.health_item1': {
-    es: "Acceso al sistema sanitario",
-    en: "Access to health system"
-  },
-  'services.health_item2': {
-    es: "Médicos que hablan múltiples idiomas",
-    en: "Doctors who speak multiple languages"
-  },
-  'services.health_item3': {
-    es: "Seguros de salud para expatriados",
-    en: "Health insurance for expatriates"
-  },
-  'services.health_item4': {
-    es: "Servicios psicológicos multiculturales",
-    en: "Multicultural psychological services"
-  },
-  'services.education_title': {
-    es: "Servicios de Educación",
-    en: "Education Services"
-  },
-  'services.education_item1': {
-    es: "Escuelas internacionales y bilingües",
-    en: "International and bilingual schools"
-  },
-  'services.education_item2': {
-    es: "Cursos de español para extranjeros",
-    en: "Spanish courses for foreigners"
-  },
-  'services.education_item3': {
-    es: "Integración académica para niños",
-    en: "Academic integration for children"
-  },
-  'services.education_item4': {
-    es: "Formación profesional y universitaria",
-    en: "Professional and university training"
-  },
-  'services.gallery_title': {
-    es: "Galería de Servicios",
-    en: "Services Gallery"
-  },
-  'services.gallery_subtitle': {
-    es: "Nuestros profesionales en acción",
-    en: "Our professionals in action"
-  },
-  'services.gallery_image1_alt': {
-    es: "Servicio de asesoramiento legal",
-    en: "Legal advisory service"
-  },
-  'services.gallery_image2_alt': {
-    es: "Búsqueda de vivienda para expatriados",
-    en: "Housing search for expatriates"
-  },
-  'services.gallery_image3_alt': {
-    es: "Servicios de salud para extranjeros",
-    en: "Health services for foreigners"
-  },
-  'services.gallery_image4_alt': {
-    es: "Asesoramiento educativo internacional",
-    en: "International educational advice"
-  },
-  'services.cta_title': {
-    es: "¿Necesitas un servicio específico?",
-    en: "Need a specific service?"
-  },
-  'services.cta_description': {
-    es: "Contamos con una red de profesionales especializados listos para ayudarte",
-    en: "We have a network of specialized professionals ready to help you"
-  },
-  'services.cta_button': {
-    es: "Contáctanos",
-    en: "Contact Us"
+  professionals_view_plans: {
+    es: "Ver planes",
+    en: "View plans"
   },
   
-  // Página de Testimonios
-  'testimonials.title': {
-    es: "Testimonios de Expatriados",
-    en: "Expatriate Testimonials"
+  // FAQs traducciones que faltan
+  'faq.category_general': {
+    es: "General",
+    en: "General"
   },
-  'testimonials.description': {
-    es: "Descubre las experiencias reales de expatriados que han utilizado nuestros servicios para su adaptación en España.",
-    en: "Discover the real experiences of expatriates who have used our services for their adaptation in Spain."
+  'faq.category_legal': {
+    es: "Legal",
+    en: "Legal"
   },
-  'testimonials.from': {
-    es: "de",
-    en: "from"
-  },
-  'testimonials.testimonial1_text': {
-    es: "SOS Expats fue fundamental para mi adaptación en Madrid. Gracias a ellos, encontré un apartamento ideal y me ayudaron con todos los trámites legales. ¡Su servicio es impecable!",
-    en: "SOS Expats was crucial for my adaptation in Madrid. Thanks to them, I found an ideal apartment and they helped me with all the legal procedures. Their service is impeccable!"
-  },
-  'testimonials.testimonial2_text': {
-    es: "Cuando llegué a Barcelona, no hablaba español y estaba perdido con los trámites. El equipo de SOS Expats me asignó un asistente personal que me guió en todo momento. Gracias a ellos, mi transición fue mucho más fácil.",
-    en: "When I arrived in Barcelona, I didn't speak Spanish and was lost with the procedures. The SOS Expats team assigned me a personal assistant who guided me at all times. Thanks to them, my transition was much easier."
-  },
-  'testimonials.testimonial3_text': {
-    es: "Encontrar escuelas para mis hijos era mi mayor preocupación. SOS Expats no solo me ayudó a encontrar excelentes escuelas internacionales, sino que también me apoyó con la integración de toda mi familia. Estamos muy agradecidos.",
-    en: "Finding schools for my children was my biggest concern. SOS Expats not only helped me find excellent international schools, but also supported me with the integration of my entire family. We are very grateful."
-  },
-  'testimonials.testimonial4_text': {
-    es: "Los servicios de asesoría fiscal para expatriados de SOS Expats me ahorraron mucho dinero y dolores de cabeza. Su equipo conoce perfectamente la legislación española y las particularidades para extranjeros.",
-    en: "SOS Expats' tax advisory services for expatriates saved me a lot of money and headaches. Their team perfectly understands Spanish legislation and particularities for foreigners."
-  },
-  'testimonials.gallery_title': {
-    es: "Eventos con Nuestra Comunidad",
-    en: "Events with Our Community"
-  },
-  'testimonials.gallery_description': {
-    es: "Organizamos regularmente eventos para conectar a expatriados y profesionales en un ambiente relajado.",
-    en: "We regularly organize events to connect expatriates and professionals in a relaxed environment."
-  },
-  'testimonials.gallery_subtitle': {
-    es: "Momentos compartidos",
-    en: "Shared moments"
-  },
-  'testimonials.gallery_image1_alt': {
-    es: "Networking para expatriados en Madrid",
-    en: "Networking for expatriates in Madrid"
-  },
-  'testimonials.gallery_image2_alt': {
-    es: "Taller sobre adaptación cultural en España",
-    en: "Workshop on cultural adaptation in Spain"
-  },
-  'testimonials.gallery_image3_alt': {
-    es: "Evento social para nuevos expatriados",
-    en: "Social event for new expatriates"
-  },
-  'testimonials.gallery_image4_alt': {
-    es: "Conferencia sobre oportunidades laborales para extranjeros",
-    en: "Conference on job opportunities for foreigners"
-  },
-  'testimonials.stats_title': {
-    es: "El Impacto de SOS Expats",
-    en: "The Impact of SOS Expats"
-  },
-  'testimonials.stats_expats': {
-    es: "Expatriados Asistidos",
-    en: "Expatriates Assisted"
-  },
-  'testimonials.stats_satisfaction': {
-    es: "Índice de Satisfacción",
-    en: "Satisfaction Rate"
-  },
-  'testimonials.stats_countries': {
-    es: "Países de Origen",
-    en: "Countries of Origin"
-  },
-  'testimonials.stats_professionals': {
-    es: "Profesionales en Red",
-    en: "Professionals in Network"
-  },
-  'testimonials.share_title': {
-    es: "¿Tienes una Historia que Compartir?",
-    en: "Do You Have a Story to Share?"
-  },
-  'testimonials.share_description': {
-    es: "Si has utilizado nuestros servicios y quieres compartir tu experiencia, nos encantaría conocer tu historia y cómo te ayudamos en tu adaptación a España.",
-    en: "If you have used our services and want to share your experience, we would love to hear your story and how we helped you adapt to Spain."
-  },
-  'testimonials.share_button': {
-    es: "Compartir Mi Experiencia",
-    en: "Share My Experience"
-  },
-  
-  // Página de Blog
-  'blog.title': {
-    es: "Blog de SOS Expats",
-    en: "SOS Expats Blog"
-  },
-  'blog.subtitle': {
-    es: "Información útil para expatriados",
-    en: "Useful information for expatriates"
-  },
-  'blog.description': {
-    es: "Artículos, guías y consejos para facilitar tu vida como expatriado en España.",
-    en: "Articles, guides and tips to make your life as an expatriate in Spain easier."
-  },
-  'blog.category_all': {
-    es: "Todos",
-    en: "All"
-  },
-  'blog.category_procedures': {
-    es: "Trámites",
-    en: "Procedures"
-  },
-  'blog.category_housing': {
+  'faq.category_housing': {
     es: "Vivienda",
     en: "Housing"
   },
-  'blog.category_taxes': {
-    es: "Impuestos",
-    en: "Taxes"
+  'faq.category_health': {
+    es: "Salud",
+    en: "Health"
   },
-  'blog.category_culture': {
-    es: "Cultura",
-    en: "Culture"
+  'faq.category_work': {
+    es: "Trabajo",
+    en: "Work"
   },
-  'blog.category_education': {
-    es: "Educación",
-    en: "Education"
+  'faq.title': {
+    es: "Preguntas Frecuentes",
+    en: "Frequently Asked Questions"
   },
-  'blog.recent_articles': {
-    es: "Artículos recientes",
-    en: "Recent articles"
+  'faq.description': {
+    es: "Encuentra respuestas a las preguntas más comunes sobre nuestros servicios.",
+    en: "Find answers to the most common questions about our services."
   },
-  'blog.gallery_title': {
-    es: "Galería de experiencias",
-    en: "Experiences gallery"
+  'faq.search_title': {
+    es: "Buscar en preguntas frecuentes",
+    en: "Search in FAQ"
   },
-  'blog.gallery_description': {
-    es: "Imágenes de nuestros eventos, talleres y actividades con la comunidad de expatriados.",
-    en: "Images of our events, workshops and activities with the expatriate community."
+  'faq.search_placeholder': {
+    es: "Escribe tu pregunta...",
+    en: "Type your question..."
   },
-  'blog.gallery_subtitle': {
-    es: "Momentos compartidos",
-    en: "Shared moments"
+  'faq.not_found_title': {
+    es: "No se encontraron resultados",
+    en: "No results found"
   },
-  'blog.gallery_image1_alt': {
-    es: "Taller sobre adaptación cultural en España",
-    en: "Workshop on cultural adaptation in Spain"
+  'faq.not_found_description': {
+    es: "No encontramos preguntas que coincidan con tu búsqueda.",
+    en: "We couldn't find any questions matching your search."
   },
-  'blog.gallery_image2_alt': {
-    es: "Networking para expatriados en Madrid",
-    en: "Networking for expatriates in Madrid"
+  'faq.contact_button': {
+    es: "Contactar soporte",
+    en: "Contact support"
   },
-  'blog.gallery_image3_alt': {
-    es: "Sesión informativa sobre trámites legales",
-    en: "Information session on legal procedures"
+  'faq.resources_title': {
+    es: "Recursos adicionales",
+    en: "Additional resources"
   },
-  'blog.gallery_image4_alt': {
-    es: "Evento social para nuevos expatriados",
-    en: "Social event for new expatriates"
+  'faq.resource1_title': {
+    es: "Guía para expatriados",
+    en: "Expat guide"
   },
-  'blog.newsletter_title': {
-    es: "Suscríbete a nuestro boletín",
-    en: "Subscribe to our newsletter"
+  'faq.resource1_description': {
+    es: "Guía completa para vivir en España",
+    en: "Complete guide to living in Spain"
   },
-  'blog.newsletter_description': {
-    es: "Recibe artículos útiles, noticias y consejos para expatriados directamente en tu correo.",
-    en: "Receive useful articles, news and tips for expatriates directly in your email."
+  'faq.resource2_title': {
+    es: "Portal de profesionales",
+    en: "Professional portal"
   },
-  'blog.newsletter_placeholder': {
-    es: "Tu correo electrónico",
-    en: "Your email"
+  'faq.resource2_description': {
+    es: "Información para profesionales",
+    en: "Information for professionals"
   },
-  'blog.newsletter_button': {
-    es: "Suscribirse",
-    en: "Subscribe"
+  'faq.resource3_title': {
+    es: "Blog de noticias",
+    en: "News blog"
   },
-  'blog.newsletter_privacy': {
-    es: "No compartiremos tu información. Puedes darte de baja en cualquier momento.",
-    en: "We won't share your information. You can unsubscribe at any time."
+  'faq.resource3_description': {
+    es: "Últimas noticias y consejos",
+    en: "Latest news and tips"
   },
-  
-  // Página de Equipo
-  'team.title': {
-    es: "Nuestro Equipo",
-    en: "Our Team"
-  },
-  'team.description': {
-    es: "Conoce a los profesionales detrás de SOS Expats, dedicados a facilitar la adaptación de expatriados en España.",
-    en: "Meet the professionals behind SOS Expats, dedicated to facilitating the adaptation of expatriates in Spain."
-  },
-  'team.leadership_title': {
-    es: "Equipo directivo",
-    en: "Leadership team"
-  },
-  'team.position_ceo': {
-    es: "Fundadora y Directora Ejecutiva",
-    en: "Founder and CEO"
-  },
-  'team.position_legal': {
-    es: "Director de Servicios Legales",
-    en: "Legal Services Director"
-  },
-  'team.position_community': {
-    es: "Coordinadora de Comunidad",
-    en: "Community Coordinator"
-  },
-  'team.position_housing': {
-    es: "Especialista en Vivienda",
-    en: "Housing Specialist"
-  },
-  'team.member1_description': {
-    es: "Con más de 15 años de experiencia trabajando con expatriados, Laura fundó SOS Expats para crear una red de apoyo integral.",
-    en: "With over 15 years of experience working with expatriates, Laura founded SOS Expats to create a comprehensive support network."
-  },
-  'team.member2_description': {
-    es: "Abogado especializado en derecho migratorio e internacional, ayuda a los expatriados a navegar los complejos trámites legales en España.",
-    en: "A lawyer specialized in immigration and international law, he helps expatriates navigate complex legal procedures in Spain."
-  },
-  'team.member3_description': {
-    es: "Sofia se encarga de conectar a los expatriados entre sí y con profesionales locales, organizando eventos y actividades comunitarias.",
-    en: "Sofia is responsible for connecting expatriates with each other and with local professionals, organizing events and community activities."
-  },
-  'team.member4_description': {
-    es: "Miguel ayuda a los recién llegados a encontrar el hogar perfecto en España, gestionando todos los aspectos relacionados con la vivienda.",
-    en: "Miguel helps newcomers find the perfect home in Spain, managing all aspects related to housing."
-  },
-  'team.values_title': {
-    es: "Nuestros Valores",
-    en: "Our Values"
-  },
-  'team.value1_title': {
-    es: "Empatía Cultural",
-    en: "Cultural Empathy"
-  },
-  'team.value1_description': {
-    es: "Entendemos los desafíos de adaptarse a una nueva cultura y trabajamos para facilitar este proceso con sensibilidad y comprensión.",
-    en: "We understand the challenges of adapting to a new culture and work to facilitate this process with sensitivity and understanding."
-  },
-  'team.value2_title': {
-    es: "Profesionalismo",
-    en: "Professionalism"
-  },
-  'team.value2_description': {
-    es: "Ofrecemos servicios de alta calidad con estándares profesionales rigurosos, garantizando soluciones eficientes y confiables.",
-    en: "We offer high-quality services with rigorous professional standards, ensuring efficient and reliable solutions."
-  },
-  'team.value3_title': {
-    es: "Comunidad",
-    en: "Community"
-  },
-  'team.value3_description': {
-    es: "Creemos en el poder de las conexiones humanas y fomentamos una comunidad donde los expatriados se sientan parte de un grupo de apoyo.",
-    en: "We believe in the power of human connections and foster a community where expatriates feel part of a support group."
-  },
-  'team.value4_title': {
-    es: "Innovación",
-    en: "Innovation"
-  },
-  'team.value4_description': {
-    es: "Buscamos constantemente nuevas formas de mejorar nuestros servicios y adaptarnos a las necesidades cambiantes de los expatriados.",
-    en: "We constantly seek new ways to improve our services and adapt to the changing needs of expatriates."
-  },
-  'team.gallery_title': {
-    es: "Nuestro equipo en acción",
-    en: "Our team in action"
-  },
-  'team.gallery_subtitle': {
-    es: "Trabajando juntos para servir mejor",
-    en: "Working together to better serve"
-  },
-  'team.gallery_image1_alt': {
-    es: "Reunión del equipo directivo de SOS Expats",
-    en: "SOS Expats leadership team meeting"
-  },
-  'team.gallery_image2_alt': {
-    es: "Nuestro equipo en un evento para expatriados",
-    en: "Our team at an event for expatriates"
-  },
-  'team.gallery_image3_alt': {
-    es: "Sesión de formación para nuevos miembros del equipo",
-    en: "Training session for new team members"
-  },
-  'team.gallery_image4_alt': {
-    es: "Colaboración del equipo en un proyecto especial",
-    en: "Team collaboration on a special project"
-  },
-  'team.join_title': {
-    es: "¿Quieres unirte a nuestro equipo?",
-    en: "Want to join our team?"
-  },
-  'team.join_description': {
-    es: "Estamos siempre buscando profesionales apasionados por ayudar a los expatriados y que compartan nuestros valores.",
-    en: "We are always looking for professionals who are passionate about helping expatriates and who share our values."
-  },
-  'team.join_button': {
-    es: "Ver Oportunidades",
-    en: "See Opportunities"
+  'faq.resource_link': {
+    es: "Ver más",
+    en: "See more"
   },
   
-  // Página de Recursos
-  'resources.title': {
-    es: "Recursos para Expatriados",
-    en: "Expatriate Resources"
+  // Preguntas FAQ específicas
+  'faq.general_q1': {
+    es: "¿Qué es SOS Expats?",
+    en: "What is SOS Expats?"
   },
-  'resources.description': {
-    es: "Aquí encontrarás guías, documentos y herramientas útiles para facilitar tu adaptación y vida diaria en España.",
-    en: "Here you'll find guides, documents and useful tools to facilitate your adaptation and daily life in Spain."
+  'faq.general_a1': {
+    es: "SOS Expats es una plataforma que conecta expatriados con profesionales locales en España.",
+    en: "SOS Expats is a platform that connects expatriates with local professionals in Spain."
   },
-  'resources.all_categories': {
-    es: "Todas las categorías",
-    en: "All categories"
+  'faq.general_q2': {
+    es: "¿Cómo funciona la plataforma?",
+    en: "How does the platform work?"
   },
-  'resources.read_more': {
-    es: "Leer más",
-    en: "Read more"
+  'faq.general_a2': {
+    es: "Los expatriados pueden buscar servicios y los profesionales pueden ofrecer sus servicios.",
+    en: "Expatriates can search for services and professionals can offer their services."
   },
-  'resources.legal_category': {
-    es: "Recursos Legales",
-    en: "Legal Resources"
+  'faq.general_q3': {
+    es: "¿Es gratuito usar SOS Expats?",
+    en: "Is it free to use SOS Expats?"
   },
-  'resources.housing_category': {
-    es: "Vivienda",
-    en: "Housing"
-  },
-  'resources.education_category': {
-    es: "Educación",
-    en: "Education"
-  },
-  'resources.culture_category': {
-    es: "Cultura y Adaptación",
-    en: "Culture & Adaptation"
-  },
-  'resources.legal_resource1_title': {
-    es: "Guía completa sobre el NIE",
-    en: "Complete guide to NIE"
-  },
-  'resources.legal_resource1_description': {
-    es: "Todo lo que necesitas saber sobre el Número de Identidad de Extranjero: requisitos, procesos y consejos.",
-    en: "Everything you need to know about the Foreigner Identification Number: requirements, processes and tips."
-  },
-  'resources.legal_resource2_title': {
-    es: "Trámites de residencia",
-    en: "Residence procedures"
-  },
-  'resources.legal_resource2_description': {
-    es: "Información detallada sobre los diferentes tipos de permisos de residencia y cómo solicitarlos.",
-    en: "Detailed information about the different types of residence permits and how to apply for them."
-  },
-  'resources.legal_resource3_title': {
-    es: "Fiscalidad para expatriados",
-    en: "Taxation for expatriates"
-  },
-  'resources.legal_resource3_description': {
-    es: "Guía sobre impuestos, obligaciones fiscales y convenios de doble imposición para extranjeros en España.",
-    en: "Guide on taxes, tax obligations and double taxation agreements for foreigners in Spain."
-  },
-  'resources.housing_resource1_title': {
-    es: "Cómo alquilar una vivienda en España",
-    en: "How to rent a home in Spain"
-  },
-  'resources.housing_resource1_description': {
-    es: "Guía paso a paso para encontrar y alquilar una vivienda, incluyendo aspectos legales y consejos prácticos.",
-    en: "Step-by-step guide to finding and renting a home, including legal aspects and practical advice."
-  },
-  'resources.housing_resource2_title': {
-    es: "Compra de propiedad para extranjeros",
-    en: "Property purchase for foreigners"
-  },
-  'resources.housing_resource2_description': {
-    es: "Todo lo que debes saber si estás considerando comprar una propiedad en España siendo extranjero.",
-    en: "Everything you should know if you're considering buying a property in Spain as a foreigner."
-  },
-  'resources.housing_resource3_title': {
-    es: "Glosario de términos inmobiliarios",
-    en: "Real estate glossary"
-  },
-  'resources.housing_resource3_description': {
-    es: "Diccionario español-inglés de los términos más comunes que encontrarás en el mercado inmobiliario español.",
-    en: "Spanish-English dictionary of the most common terms you'll find in the Spanish real estate market."
-  },
-  'resources.education_resource1_title': {
-    es: "Sistema educativo español",
-    en: "Spanish educational system"
-  },
-  'resources.education_resource1_description': {
-    es: "Explicación detallada sobre cómo funciona la educación en España, desde infantil hasta la universidad.",
-    en: "Detailed explanation of how education works in Spain, from kindergarten to university."
-  },
-  'resources.education_resource2_title': {
-    es: "Escuelas internacionales y bilingües",
-    en: "International and bilingual schools"
-  },
-  'resources.education_resource2_description': {
-    es: "Directorio de centros educativos internacionales y bilingües en las principales ciudades españolas.",
-    en: "Directory of international and bilingual educational centers in the main Spanish cities."
-  },
-  'resources.education_resource3_title': {
-    es: "Cursos de español para extranjeros",
-    en: "Spanish courses for foreigners"
-  },
-  'resources.education_resource3_description': {
-    es: "Opciones para aprender español, desde academias y universidades hasta intercambios lingüísticos.",
-    en: "Options for learning Spanish, from academies and universities to language exchanges."
-  },
-  'resources.culture_resource1_title': {
-    es: "Choque cultural en España",
-    en: "Culture shock in Spain"
-  },
-  'resources.culture_resource1_description': {
-    es: "Consejos para gestionar el choque cultural y adaptarte más fácilmente a la vida en España.",
-    en: "Tips for managing culture shock and adapting more easily to life in Spain."
-  },
-  'resources.culture_resource2_title': {
-    es: "Costumbres españolas explicadas",
-    en: "Spanish customs explained"
-  },
-  'resources.culture_resource2_description': {
-    es: "Guía sobre horarios, comidas, celebraciones y otras particularidades de la cultura española.",
-    en: "Guide on schedules, meals, celebrations and other peculiarities of Spanish culture."
-  },
-  'resources.culture_resource3_title': {
-    es: "Comunidades de expatriados",
-    en: "Expatriate communities"
-  },
-  'resources.culture_resource3_description': {
-    es: "Información sobre grupos, asociaciones y eventos donde conocer a otros expatriados en España.",
-    en: "Information about groups, associations and events where you can meet other expatriates in Spain."
-  },
-  'resources.downloads_title': {
-    es: "Guías descargables",
-    en: "Downloadable guides"
-  },
-  'resources.download1_title': {
-    es: "Checklist de mudanza",
-    en: "Moving checklist"
-  },
-  'resources.download1_description': {
-    es: "Lista completa de tareas para preparar tu mudanza a España de forma organizada.",
-    en: "Complete task list to prepare your move to Spain in an organized way."
-  },
-  'resources.download2_title': {
-    es: "Guía de barrios",
-    en: "Neighborhood guide"
-  },
-  'resources.download2_description': {
-    es: "Información detallada sobre los mejores barrios para expatriados en las principales ciudades.",
-    en: "Detailed information about the best neighborhoods for expatriates in major cities."
-  },
-  'resources.download3_title': {
-    es: "Plantillas de CV españolas",
-    en: "Spanish CV templates"
-  },
-  'resources.download3_description': {
-    es: "Modelos de currículum adaptados al mercado laboral español y consejos para buscar empleo.",
-    en: "Resume templates adapted to the Spanish job market and tips for job searching."
-  },
-  'resources.download4_title': {
-    es: "Documentos esenciales",
-    en: "Essential documents"
-  },
-  'resources.download4_description': {
-    es: "Listado de documentos importantes que debes tener preparados al mudarte a España.",
-    en: "List of important documents you should have ready when moving to Spain."
-  },
-  'resources.download_button': {
-    es: "Descargar PDF",
-    en: "Download PDF"
-  },
-  'resources.faq_title': {
-    es: "Preguntas frecuentes",
-    en: "Frequently asked questions"
-  },
-  'resources.faq1_question': {
-    es: "¿Qué documentos necesito para trabajar legalmente en España?",
-    en: "What documents do I need to work legally in Spain?"
-  },
-  'resources.faq1_answer': {
-    es: "Para trabajar legalmente en España como extranjero, necesitarás un NIE, un permiso de residencia y trabajo, y estar dado de alta en la Seguridad Social. Los requisitos específicos varían según tu nacionalidad y situación personal.",
-    en: "To work legally in Spain as a foreigner, you'll need a NIE, a residence and work permit, and to be registered with Social Security. The specific requirements vary according to your nationality and personal situation."
-  },
-  'resources.faq2_question': {
-    es: "¿Cómo funciona el sistema sanitario para expatriados?",
-    en: "How does the healthcare system work for expatriates?"
-  },
-  'resources.faq2_answer': {
-    es: "Los expatriados con residencia legal tienen acceso al sistema sanitario público español, que es considerado uno de los mejores del mundo. Si trabajas en España, contribuirás a la Seguridad Social, lo que incluye la cobertura sanitaria.",
-    en: "Expatriates with legal residence have access to the Spanish public healthcare system, which is considered one of the best in the world. If you work in Spain, you'll contribute to Social Security, which includes healthcare coverage."
-  },
-  'resources.faq3_question': {
-    es: "¿Cuánto tiempo puedo permanecer en España como turista?",
-    en: "How long can I stay in Spain as a tourist?"
-  },
-  'resources.faq3_answer': {
-    es: "Los ciudadanos de la UE pueden residir en España hasta 3 meses sin registro formal. Los no comunitarios generalmente pueden permanecer 90 días en un período de 180 días con visa Schengen o exención de visado, dependiendo de su nacionalidad.",
-    en: "EU citizens can reside in Spain for up to 3 months without formal registration. Non-EU citizens can generally stay for 90 days in a 180-day period with a Schengen visa or visa exemption, depending on their nationality."
-  },
-  'resources.faq4_question': {
-    es: "¿Es difícil abrir una cuenta bancaria siendo extranjero?",
-    en: "Is it difficult to open a bank account as a foreigner?"
-  },
-  'resources.faq4_answer': {
-    es: "No es especialmente difícil, pero necesitarás tu pasaporte o documento de identidad, NIE y prueba de residencia. Algunos bancos ofrecen cuentas específicas para no residentes. Recomendamos investigar diferentes entidades para encontrar las mejores condiciones.",
-    en: "It's not especially difficult, but you'll need your passport or ID, NIE and proof of residence. Some banks offer specific accounts for non-residents. We recommend researching different institutions to find the best conditions."
-  },
-  'resources.cta_title': {
-    es: "¿Necesitas ayuda personalizada?",
-    en: "Need personalized help?"
-  },
-  'resources.cta_description': {
-    es: "Nuestro equipo de asesores está disponible para resolver tus dudas específicas y ayudarte en tu proceso de adaptación.",
-    en: "Our team of advisors is available to resolve your specific doubts and help you in your adaptation process."
-  },
-  'resources.cta_button': {
-    es: "Contáctanos",
-    en: "Contact Us"
+  'faq.general_a3': {
+    es: "Para expatriados es completamente gratuito. Los profesionales tienen planes básicos gratuitos y premium.",
+    en: "For expatriates it's completely free. Professionals have free basic plans and premium options."
   },
   
-  // Formulario de Inscripción de Profesionales
+  'faq.legal_q1': {
+    es: "¿Qué servicios legales ofrecen?",
+    en: "What legal services do you offer?"
+  },
+  'faq.legal_a1': {
+    es: "Conectamos con abogados especializados en trámites de extranjería, visados y residencia.",
+    en: "We connect with lawyers specialized in immigration procedures, visas and residence."
+  },
+  'faq.legal_q2': {
+    es: "¿Los profesionales están verificados?",
+    en: "Are the professionals verified?"
+  },
+  'faq.legal_a2': {
+    es: "Sí, todos nuestros profesionales pasan por un proceso de verificación de credenciales.",
+    en: "Yes, all our professionals go through a credentials verification process."
+  },
+  'faq.legal_q3': {
+    es: "¿Puedo obtener asesoría fiscal?",
+    en: "Can I get tax advice?"
+  },
+  'faq.legal_a3': {
+    es: "Tenemos asesores fiscales especializados en la situación de expatriados en España.",
+    en: "We have tax advisors specialized in the situation of expatriates in Spain."
+  },
+  
+  'faq.housing_q1': {
+    es: "¿Ayudan a encontrar vivienda?",
+    en: "Do you help find housing?"
+  },
+  'faq.housing_a1': {
+    es: "Conectamos con agentes inmobiliarios que entienden las necesidades de los expatriados.",
+    en: "We connect with real estate agents who understand the needs of expatriates."
+  },
+  'faq.housing_q2': {
+    es: "¿Qué tipos de alojamiento ofrecen?",
+    en: "What types of accommodation do you offer?"
+  },
+  'faq.housing_a2': {
+    es: "Desde habitaciones compartidas hasta pisos completos, tanto alquiler como compra.",
+    en: "From shared rooms to complete apartments, both rental and purchase."
+  },
+  'faq.housing_q3': {
+    es: "¿Hay opciones temporales?",
+    en: "Are there temporary options?"
+  },
+  'faq.housing_a3': {
+    es: "Sí, tenemos profesionales que ofrecen alojamiento temporal y estancias cortas.",
+    en: "Yes, we have professionals who offer temporary accommodation and short stays."
+  },
+  
+  'faq.health_q1': {
+    es: "¿Cómo accedo al sistema de salud?",
+    en: "How do I access the health system?"
+  },
+  'faq.health_a1': {
+    es: "Te conectamos con profesionales que te ayudan con el registro en la seguridad social y seguros médicos.",
+    en: "We connect you with professionals who help you register for social security and medical insurance."
+  },
+  'faq.health_q2': {
+    es: "¿Hay médicos que hablen mi idioma?",
+    en: "Are there doctors who speak my language?"
+  },
+  'faq.health_a2': {
+    es: "Nuestra red incluye profesionales médicos que hablan varios idiomas.",
+    en: "Our network includes medical professionals who speak multiple languages."
+  },
+  'faq.health_q3': {
+    es: "¿Qué pasa en emergencias?",
+    en: "What happens in emergencies?"
+  },
+  'faq.health_a3': {
+    es: "Proporcionamos información sobre servicios de emergencia y hospitales cercanos.",
+    en: "We provide information about emergency services and nearby hospitals."
+  },
+  
+  'faq.work_q1': {
+    es: "¿Ayudan a encontrar trabajo?",
+    en: "Do you help find work?"
+  },
+  'faq.work_a1': {
+    es: "Conectamos con consultores de recursos humanos y coaches de carrera especializados en expatriados.",
+    en: "We connect with HR consultants and career coaches specialized in expatriates."
+  },
+  'faq.work_q2': {
+    es: "¿Qué necesito para trabajar en España?",
+    en: "What do I need to work in Spain?"
+  },
+  'faq.work_a2': {
+    es: "Depende de tu nacionalidad. Nuestros asesores legales te guiarán en los permisos necesarios.",
+    en: "It depends on your nationality. Our legal advisors will guide you through the necessary permits."
+  },
+  'faq.work_q3': {
+    es: "¿Puedo trabajar como autónomo?",
+    en: "Can I work as self-employed?"
+  },
+  'faq.work_a3': {
+    es: "Sí, tenemos asesores que te ayudan con todos los trámites para ser autónomo en España.",
+    en: "Yes, we have advisors who help you with all the procedures to be self-employed in Spain."
+  },
+  
+  // Formulario profesional
+  'form.professional.subtitle': {
+    es: "Formulario de registro para profesionales",
+    en: "Professional registration form"
+  },
   'form.professional.title': {
     es: "Inscripción de Profesionales",
     en: "Professional Registration"
@@ -1136,7 +737,7 @@ const translations: Translations = {
   },
   'form.professional.select_modality': {
     es: "Selecciona modalidad",
-    en: "Select modality"
+    en: "Select rate"
   },
   'form.professional.in_person': {
     es: "Presencial",
